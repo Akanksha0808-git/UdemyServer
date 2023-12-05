@@ -5,10 +5,12 @@ const courseSchema = new mongoose.Schema({
   category: String,
   subcategory: String,
   heading: String,
+  des:String,
   image:String,
- author : String,
- rating: String,
+  author : String,
+  rating: String,
   price: String,
+
 });
 
 
